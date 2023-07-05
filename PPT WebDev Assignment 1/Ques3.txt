@@ -1,0 +1,21 @@
+Q.3 Differentiate between HTML Tags and Elements?
+
+
+In HTML, there is a distinction between tags and elements. Here's how they differ:
+
+HTML Tags: Tags are the building blocks of HTML markup. They are used to define the structure and behavior of elements within an HTML document. Tags are written using angle brackets (< and >), and they usually come in pairs: an opening tag and a closing tag. The opening tag denotes the start of an element, while the closing tag denotes the end.
+
+Example of an HTML tag: <p></p>
+In this example, <p> is the opening tag, and </p> is the closing tag. Together, they define a paragraph element.
+
+HTML Elements: Elements are made up of tags, along with the content they surround. An element represents a specific part of a web page, such as a heading, paragraph, link, image, or form input. It consists of an opening tag, optional attributes within the tag, the content, and a closing tag.
+
+Example of an HTML element: <h1>Welcome to my website!</h1>
+In this example, <h1> is the opening tag, and </h1> is the closing tag. The text "Welcome to my website!" is the content of the <h1> element.
+
+Elements can also be self-contained, known as self-closing or void elements, which do not require a closing tag. These elements are indicated by a forward slash (/) before the closing angle bracket.
+
+Example of a self-closing element: <img src="image.jpg" alt="Image" />
+In this example, <img> is a self-closing element used for embedding an image. It does not have a closing tag.
+
+To summarize, HTML tags define the structure and behavior of elements, while elements consist of tags, optional attributes, and the content they surround. Tags are written with opening and closing angles brackets, while elements are the complete entities that include tags and content.

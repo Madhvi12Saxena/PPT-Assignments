@@ -1,0 +1,30 @@
+Q.9 What’s the difference between html tag and attribute and give example of some global attributes?
+
+The difference between HTML tags and attributes lies in their purpose and usage:
+
+HTML Tags:
+HTML tags are used to define the structure and elements within an HTML document. They consist of opening and closing tags, and they enclose content to define different parts of the document. Tags are written using angle brackets (< and >).
+
+Examples of HTML tags: <div>, <p>, <h1>, <a>, <img>, etc.
+
+HTML Attributes:
+HTML attributes provide additional information or properties to HTML elements. They are added within the opening tag of an HTML element and are used to modify the behavior, appearance, or other characteristics of the element. Attributes are written within the opening tag and consist of the attribute name and its value.
+
+Examples of HTML attributes: class, id, src, href, alt, style, width, height, etc.
+
+Attributes are key-value pairs, where the attribute name represents the property to be modified, and the attribute value specifies the value to be assigned to that property. Attributes can be used to control various aspects of an element, such as its styling, links, images, accessibility, and more.
+
+Global Attributes:
+Global attributes are attributes that can be used on any HTML element, regardless of the tag. These attributes provide general functionality and can be applied to various elements.
+
+Examples of global attributes:
+
+class: Specifies one or more CSS class names to apply to an element.
+id: Provides a unique identifier for an element.
+style: Defines inline CSS styles to apply to an element.
+title: Provides a title or tooltip text for an element.
+data-*: Allows custom data attributes to be added to an element.
+aria-*: Defines accessibility-related properties for elements.
+These are just a few examples of global attributes. Global attributes offer flexibility and consistency in modifying elements across different tags and provide a standardized way to enhance elements with additional functionality or styling.
+
+In summary, HTML tags define the structure and elements, while HTML attributes provide additional information and modify the behavior or appearance of those elements. Global attributes are a set of attributes that can be used on any HTML element
