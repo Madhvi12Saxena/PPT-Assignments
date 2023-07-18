@@ -1,0 +1,13 @@
+Q.4 Whats difference between Inline, Inline Block and block ?
+
+Ans:-Inline: Inline elements flow with the text and don't start on a new line. 
+They don't have a specific width or height. 
+They don't create spaces around them. 
+
+Inline-block: Inline-block elements also flow with the text and don't start on a new line. 
+They can have a specific width and height. 
+They respect spaces around them, such as margins and paddings. 
+
+Block: Block elements start on a new line, creating a visual block. 
+They take up the full width available by default. 
+They respect spaces around them and can have a specific width, height, and other properties like margins and paddings.

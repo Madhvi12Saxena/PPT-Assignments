@@ -1,0 +1,9 @@
+Q.1 What’s Box Model in CSS ? 
+
+Ans:- The box model in CSS defines the structure and layout of elements on a web page. 
+It consists of four components: content, padding, border, and margin. 
+The content area holds the actual content of the element. 
+The padding provides space between the content and the border. 
+The border is a line that surrounds the padding and content. 
+The margin is the space outside the border, creating separation between elements. 
+Understanding the box model is essential for controlling the size and spacing of elements with CSS.

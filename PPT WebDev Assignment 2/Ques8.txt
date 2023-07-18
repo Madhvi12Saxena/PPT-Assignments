@@ -1,0 +1,17 @@
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+
+Ans:-Absolute Positioning: 
+We can position an element exactly where you want, even if it overlaps other elements. 
+It's like taking the element out of the normal flow and placing it wherever you specify.
+
+ Relative Positioning: 
+ We can move an element from its normal position a little bit, without affecting other elements. 
+ It's like nudging the element around within the flow of the page. 
+ 
+ Sticky Positioning: 
+ You can make an element stick to a certain spot on the page when you scroll. 
+ It's like a hybrid between relative and fixed positioning, where the element behaves differently at different scroll positions. 
+ 
+ Fixed Positioning: 
+ We can make an element stay in the same place on the screen, even when you scroll. 
+ It's like sticking the element to a specific spot on the viewport, so it never moves.

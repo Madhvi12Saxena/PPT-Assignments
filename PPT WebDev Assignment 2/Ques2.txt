@@ -1,0 +1,14 @@
+Q.2 What are the Different Types of Selectors in CSS & what are the advantages of them?
+
+Ans:-  We can divide CSS selectors into five categories: 
+1.Simple selectors. 
+2.Combinator selectors. 
+3.Pseudo-class selectors. 
+4.Pseudo-elements selectors. 
+5.Attribute selectors. 
+Some Advantages-- 
+Simple selectors: Efficiently target specific elements, making styling straightforward. 
+Combinator selectors: Provide fine-grained control over element relationships, enabling complex layout and positioning. 
+Pseudo-class selectors: Enhance interactivity by styling elements based on user actions, improving user experience. 
+Pseudo-element selectors: Precisely style specific parts of elements, allowing for unique design enhancements. 
+Attribute selectors: Offer flexible styling based on attribute values, facilitating dynamic and adaptable styling approaches.

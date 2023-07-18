@@ -1,0 +1,11 @@
+Q.7 What’s Grid & Flex and difference between them?
+
+Ans:-Flexbox: One-dimensional layout system for arranging elements in a row or column. 
+Best suited for creating flexible and dynamic layouts within a single axis. 
+Provides control over individual items' size, alignment, and distribution. 
+Ideal for responsive designs of components like navigation menus and card layouts. 
+
+Grid: Two-dimensional layout system for creating complex grid-based designs. 
+Enables the creation of rows and columns forming a grid structure. 
+Well-suited for creating intricate layouts with multiple rows, columns, and overlapping content. 
+Used for responsive designs of full-page layouts and complex forms.

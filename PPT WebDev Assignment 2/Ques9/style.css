@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .main {
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .block1,
+  .block2 {
+    margin-top: 30px;
+  }
+  
+  .block1 .card,
+  .block2 .card,
+  .block3 .card,
+  .block4 .card {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .block2 .box1 {
+    visibility: hidden;
+  }
+  
+  .block3 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin-top: 200px;
+  }
+  
+  .block4 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .block4 .box1,
+  .block4 .box2,
+  .block4 .box3,
+  .block4 .box4,
+  .block4 .box5 {
+    visibility: hidden;
+  }
+  
+  /* list two */
+  
+  .list-two {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .block5 {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .block5 .card {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* background color of all the boxes */
+  
+  .block1 .card,
+  .block2 .card {
+    background-color: #f9697c;
+  }
+  
+  .block3 .card {
+    background-color: #9797ff;
+  }
+  
+  .block4 .card {
+    background-color: #ffff88;
+  }
+  
+  .block4 :nth-child(6) {
+    background-color: #f9697c;
+  }
+  
+  .block5 .card {
+    background-color: #89ff89;
+  }
+  

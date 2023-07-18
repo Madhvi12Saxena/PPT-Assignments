@@ -1,0 +1,12 @@
+Q.3 What is VW/VH ?
+
+Ans:- VW-- The full form of VW is viewport width. 
+It works like the percentage unit. Specifying 10vw is equivalent to occupying 10% of entire visible screen width. 
+For example, if the width of the viewport is 1000 pixels, 1 VW would be equal to 10 pixels (1000 * 1% = 10). 
+Similarly, if the width of the viewport is 800 pixels, 1 VW would be equal to 8 pixels (800 * 1% = 8).
+
+VH--The full form of VH is viewport height. 
+It works like the percentage unit as well. 
+Specifying 10vh is equivalent to occupying 10% of entire visible screen height. 
+For example, if the height of the viewport is 800 pixels, 1 VH would be equal to 8 pixels (800 * 1% = 8). 
+Similarly, if the height of the viewport is 1200 pixels, 1 VH would be equal to 12 pixels (1200 * 1% = 12).

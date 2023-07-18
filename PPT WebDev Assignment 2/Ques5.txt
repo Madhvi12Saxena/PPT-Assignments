@@ -1,0 +1,10 @@
+Q.5 How is Border-box different from Content Box?
+
+Ans:-Border-box: 
+In this value, not only width and height properties are included but we will find padding and border inside
+of the box for example .box {width: 200px; border: 10px solid black;} renders a box that is 200px wide.
+
+Content-box: 
+This is the default value of box-sizing. 
+The dimension of element only includes ‘height’ and ‘width’ and does not include ‘border’ and ‘padding’ given to element.
+Padding and Border take space outside the element.
