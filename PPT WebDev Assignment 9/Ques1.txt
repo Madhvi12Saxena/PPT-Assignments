@@ -1,0 +1,52 @@
+Q.1 What are hooks in react? how to identify hooks?
+
+Ans:-In React, hooks are functions that allow you to use state and other React features in functional components. 
+Before hooks were introduced, React components could only manage state using class components. 
+With the introduction of hooks in React 16.8, you can now use state and other React features directly in functional 
+components, making them more powerful and easier to read and maintain.
+
+Hooks are identified by their naming convention. All hooks start with the prefix "use," followed by the name of the hook.
+For example, some commonly used hooks are:
+
+useState: Allows functional components to use state.
+useEffect: Performs side effects in functional components, such as data fetching or subscriptions.
+useContext: Allows functional components to consume data from a React context.
+useRef: Returns a mutable ref object that persists across renders.
+useReducer: A more powerful alternative to useState, used for managing complex state logic.
+useMemo: Memoizes the result of a function and re-computes it only if the inputs change.
+useCallback: Memoizes a function to prevent unnecessary re-renders.
+useLayoutEffect: Similar to useEffect but runs synchronously after all DOM mutations.
+You can easily identify hooks by looking at their names starting with "use" in your functional components. 
+
+Here's an example of a functional component using the useState hook:
+
+
+import React, { useState } from 'react';
+
+const Counter = () => {
+  // Using the useState hook to manage the count state
+  const [count, setCount] = useState(0);
+
+  const handleIncrement = () => {
+    setCount(count + 1);
+  };
+
+  const handleDecrement = () => {
+    setCount(count - 1);
+  };
+
+  return (
+    <div>
+      <h1>Counter</h1>
+      <p>Count: {count}</p>
+      <button onClick={handleIncrement}>Increment</button>
+      <button onClick={handleDecrement}>Decrement</button>
+    </div>
+  );
+};
+
+export default Counter;
+
+In the above example, useState is a hook that allows us to use state in the functional component. 
+The state count is initialized with 0, and we can update it using the setCount function returned by the useState hook. 
+Hooks help keep the stateful logic encapsulated within the component function, making it more modular and easier to manage.

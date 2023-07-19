@@ -1,0 +1,24 @@
+ Q.6 Explain the concept of React fragments and when you should use them.
+
+ Ans:-In React, a fragment is a special component that allows you to group multiple children without adding an 
+ additional DOM element. Fragments are used to avoid unnecessary wrappers in the component tree when you need 
+ to return multiple elements from a component's render method.
+
+The syntax for using React fragments is empty angle brackets, 
+<>...</>, or the <React.Fragment>...</React.Fragment> syntax.
+
+When to use React Fragments:
+
+Grouping Elements: Use fragments when you want to return multiple elements from a component's render method without 
+introducing additional wrappers.
+
+Styling and Layout: Fragments are useful when you don't want to interfere with CSS styles or layout, especially if 
+you need to add styles to the parent elements of the grouped components.
+
+Returning Multiple Elements: If a component's render method needs to return multiple sibling elements (not wrapped 
+inside a single container), using fragments is a clean and concise approach.
+
+Map and Iteration: When using the map function to render a list of elements, fragments can help avoid unnecessary 
+wrapper elements for each item in the list.
+
+

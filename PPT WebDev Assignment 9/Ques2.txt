@@ -1,0 +1,22 @@
+Q.2 Explain useState Hook & what can you achieve with it?
+
+Ans:-The useState hook is one of the most fundamental hooks in React. It allows functional components to have stateful 
+logic by introducing state variables and their corresponding update functions. With the useState hook, you can achieve 
+the following in React functional components:
+
+State Management: useState enables you to create and manage state variables. State variables are values that can change 
+over time and trigger re-rendering of the component when their values are updated. It helps you retain component-specific 
+data without using class components.
+
+Initializing State: You can use useState to initialize the state with an initial value. The useState hook takes one 
+argument, which is the initial state value. For example, useState(0) sets the initial state of a counter to 0.
+
+Access to State Value: The useState hook returns an array with two elements. The first element is the current state 
+value, and the second element is the update function. You can access the current state value to display it in your 
+component.
+
+Updating State: The update function returned by useState allows you to update the state's value. When you call the 
+update function with a new value, React re-renders the component, reflecting the updated state.
+
+Immutability: useState enforces the principle of immutability. You should not directly modify the state variable; 
+instead, use the update function provided by useState to create a new state based on the previous state.
